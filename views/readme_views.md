@@ -10,3 +10,6 @@ Factorisation du code qui se répéte dans des fichiers séparés
 Modifier les fichiers 'point d'entrée', pour inclure les vues header.tpl.php et footer.tpl.php dans chaque page de la vue.
 
 Penser à modifier les liens de la nav dans header.tpl.php
+
+
+
