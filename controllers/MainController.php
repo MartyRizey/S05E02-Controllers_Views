@@ -37,6 +37,7 @@ class MainController
     // Méthode s'occupant d'afficher une template (+ header et footer)
     // Le 1er paramètre '$viewName' de la méthode show correspond à la vue qui va transiter ex : home, quand on va appeler la méthode en lui passanr un argument.
     public function show($viewName, $viewVars=array()) {
+        var_dump($viewName);
         // $viewVars est disponible dans chaque fichier de vue
         include __DIR__.'/../views/header.tpl.php';
         include __DIR__.'/../views/'.$viewName.'.tpl.php';
